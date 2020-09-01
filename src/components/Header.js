@@ -15,17 +15,6 @@ const Header = () => {
         <p>
           <Link to="/">{ companyName }</Link>
         </p>
-        <ul>
-          <li>
-            <Link to="/about/">About</Link>
-          </li>
-          <li>
-            <a href={companyUrl}>
-              <span className="visually-hidden">Github</span>
-              <FaGithub />
-            </a>
-          </li>
-        </ul>
       </Container>
     </header>
   );

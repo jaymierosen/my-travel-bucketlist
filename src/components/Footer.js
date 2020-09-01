@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import { useSiteMetadata } from 'hooks';
 
@@ -12,6 +13,9 @@ const Footer = () => {
       <Container>
         <p>
           &copy; { new Date().getFullYear() }, <a href={authorUrl}>{ authorName }</a>
+        </p>
+        <p>
+            <Link to="/about/">About</Link>
         </p>
       </Container>
     </footer>

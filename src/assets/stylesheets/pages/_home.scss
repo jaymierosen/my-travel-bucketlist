@@ -66,7 +66,10 @@
   padding-bottom: 4em;
 
   h2 {
-    margin-top: 0;
+    margin-top: 2em;
+    &:first-child {
+      margin-top: 0;
+    }
   }
 
   p {
@@ -75,6 +78,12 @@
 
   pre {
     margin-bottom: 1.5em;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.2em 0;
   }
 
 }

@@ -18,6 +18,14 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     {
+      resolve: 'gatsby-source-graphql',
+      options: {
+        typeName: 'GCMS',
+        fieldName: 'gcms',
+        url: 'https://api-us-east-1.graphcms.com/v2/ckek2kd271ubk01xoh2a8f443/master',
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
