@@ -9,6 +9,7 @@ import { useDestinations } from 'hooks';
 import Layout from 'components/Layout';
 import Container from 'components/Container';
 import Map from 'components/Map';
+import Form from 'components/Form';
 
 const LOCATION = {
   lat: 0,
@@ -63,6 +64,7 @@ const IndexPage = () => {
             return <li key={id}>{ name }</li>
           })}
         </ul>
+        <Form />
       </Container>
     </Layout>
   );
